@@ -1,0 +1,71 @@
+#welcome .sectionone img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+body {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px;
+}
+
+
+#welcome{
+    background: linear-gradient(#07f596 0%, #4bb389 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+  body #welcome .sectionone .line{
+  height: 6px;
+  background-color: black;
+  width: 200px;
+  text-align: center;
+  margin: 8px auto;
+}
+
+
+
+.menu  {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 20;;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: inline;
+
+}
+
+.spaces{
+    float: left;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: azure;
+    text-align: center;
+}
+
+body .menu{
+    text-align: left;
+}
+
+
+
+#Writing a{
+text-decoration: overline !important;
+color: green !important;
+}
